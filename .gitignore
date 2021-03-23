@@ -1,0 +1,62 @@
+# compiled output
+/backend-with-nestjs/dist
+/backend-with-nestjs/node_modules
+/backend-with-nestjs/.env
+/backend-with-nodejs-expressjs/node_modules
+/backend-with-nodejs-expressjs/.env
+/forntend-with-react/.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+
+# Tests
+/coverage
+/.nyc_output
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+#React
+
+# dependencies
+/forntend-with-react/node_modules
+/forntend-with-react/.pnp
+/forntend-with-react/.pnp.js
+
+# testing
+/forntend-with-react/coverage
+
+# production
+/forntend-with-react/build
+
+# misc
+/forntend-with-react/.DS_Store
+/forntend-with-react/.env.local
+/forntend-with-react/.env.development.local
+/forntend-with-react/.env.test.local
+/forntend-with-react/.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
