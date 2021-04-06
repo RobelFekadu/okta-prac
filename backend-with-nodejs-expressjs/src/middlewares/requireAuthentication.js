@@ -24,7 +24,7 @@ async function authenticationRequired(req, res, next) {
     req.jwt = jwt;
     next();
   } catch (error) {
-    res.status(401).send(err.message);
+    res.status(401).send(error.message);
   }
 }
 
